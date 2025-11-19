@@ -14,6 +14,8 @@ const Products = () => {
     const [addToBasket, { isError: iserr, isSuccess: isucc }] = useAddToBasketMutation()
 //////////////////////////////////////////////////////////////////////////
 
+
+    //<h1>change in product component<h1>
     const { data: products = [], isError, isSuccess, error } = useGetProductsQuery()
     const [layout, setLayout] = useState('grid');
     const getSeverity = (product) => {
