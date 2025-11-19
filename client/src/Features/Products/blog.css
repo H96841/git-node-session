@@ -1,0 +1,17 @@
+
+body{
+    /* background-color: white; */
+}
+span{
+
+    /* text-align: center; */
+    font-size: 2rem;
+    margin-right: 100px;
+    font-family: Shuneet Medium;
+}
+.blog{
+   margin-top:-50px; 
+    text-align: center;
+    /* margin-left: 500px; */
+  font-weight: bold;
+}
